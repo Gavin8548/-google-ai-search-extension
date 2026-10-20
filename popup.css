@@ -1,0 +1,73 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  width: 280px;
+  font-family: "PingFang SC", "Noto Sans SC", system-ui, sans-serif;
+  background: #fff;
+  color: #202124;
+}
+
+main {
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.status,
+.hint,
+.error {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.status {
+  color: #1a73e8;
+  margin: 0 0 12px;
+}
+
+.hint {
+  color: #5f6368;
+  margin: 12px 0 0;
+}
+
+.error {
+  color: #d93025;
+  min-height: 16px;
+  margin: 8px 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  color: #5f6368;
+}
+
+input {
+  padding: 8px 10px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: #1a73e8;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1558b0;
+}
